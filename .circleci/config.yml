@@ -21,4 +21,4 @@ jobs:
 
       - run:
           name: API Testing
-          command: 'newman run ./papi-test.postman_collection.json --environment ./papi-demo.postman_environment.json -r cli'
+          command: 'newman run ./papi-test.postman_collection.json --environment ./papi-qa-test.postman_environment.json -r cli'
